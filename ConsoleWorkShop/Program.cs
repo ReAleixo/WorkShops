@@ -10,8 +10,8 @@ namespace ConsoleWorkShop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("oi");
-            Console.WriteLine("teste");
+            Pessoa Joao = new Pessoa("João Pereira Navarro", 35);
+            Console.WriteLine(Joao.Apresentar());
             Console.ReadKey();
         }
     }
