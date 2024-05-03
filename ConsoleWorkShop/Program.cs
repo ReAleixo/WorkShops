@@ -11,6 +11,7 @@ namespace ConsoleWorkShop
         static void Main(string[] args)
         {
             Console.WriteLine("oi");
+            Console.WriteLine("teste");
             Console.ReadKey();
         }
     }
